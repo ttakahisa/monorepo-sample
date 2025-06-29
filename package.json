@@ -1,0 +1,23 @@
+{
+  "name": "monorepo-sample",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.4",
+  "devDependencies": {
+    "@nx/eslint": "21.2.1",
+    "@nx/remix": "21.2.1",
+    "@nx/vite": "21.2.1",
+    "eslint": "~8.57.0",
+    "nx": "21.2.1",
+    "@nx/gradle": "21.2.1"
+  },
+  "dependencies": {}
+}

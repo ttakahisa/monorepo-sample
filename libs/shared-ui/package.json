@@ -1,0 +1,21 @@
+{
+  "name": "shared-ui",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Shared UI components",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.4",
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
